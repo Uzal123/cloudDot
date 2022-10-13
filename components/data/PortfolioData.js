@@ -1,32 +1,32 @@
 const PortfolioData = [{
         title: "Cloud Architecture & Design",
         desc: "Professional Services",
-        image: "https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+        image: "http://www.clouddot.io/img/portfolio/shutterstock_147691439_1000.jpg"
     },
     {
         title: "Managed Cloud",
         desc: "Cloud Consulting",
-        image: "https://images.unsplash.com/photo-1615309662472-4ca77a77a189?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        image: "http://www.clouddot.io/img/portfolio/shutterstock_87148675.png"
     },
     {
         title: "End to end Automation",
         desc: "DevOps",
-        image: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1294&q=80"
+        image: "http://www.clouddot.io/img/portfolio/code-944499_640.jpg"
     },
     {
         title: "Secure Cloud",
         desc: "Security",
-        image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+        image: "http://www.clouddot.io/img/portfolio/shutterstock_secure_cloud_1200.png"
     },
     {
         title: "24x7 DevOps Support",
         desc: "Global NOC",
-        image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+        image: "http://www.clouddot.io/img/portfolio/shutterstock_181565354.jpg"
     },
     {
         title: "Staff Augmentation",
         desc: "Staff Ops",
-        image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+        image: "http://www.clouddot.io/img/portfolio/shutterstock_274598708.jpg"
     },
 ]
 
