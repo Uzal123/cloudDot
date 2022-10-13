@@ -4,7 +4,7 @@ import ServiceData from "./data/ServicesData";
 
 const Service = () => {
   return (
-    <div className="">
+    <div id="services" className="">
       <div className="bg-lightBackground flex justify-center flex-col items-center p-6">
         <h2 className="text-4xl text-mainButton font-bold">Services</h2>
         <p className="text-lg text-mainText">What we do</p>

@@ -4,7 +4,7 @@ import PortfolioData from "./data/PortfolioData";
 
 const Portfolio = () => {
   return (
-    <div className="flex justify-center flex-col items-center p-6 ">
+    <div id="portfolio" className="flex justify-center flex-col items-center p-6 ">
       <h2 className="text-4xl text-mainButton font-bold">Portfolio</h2>
       <p className="text-2xl text-mainText">Portfolio of Services</p>
       <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6 p-6">

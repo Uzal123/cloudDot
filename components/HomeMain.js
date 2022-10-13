@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeMain = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-screen gap-4 ">
+    <div id="main" className="flex flex-col justify-center items-center h-screen gap-4 ">
       <video loop autoPlay muted className=" absolute -z-10 h-screen w-screen object-cover">
         <source src="Video.mp4" type="video/mp4" />
       </video>

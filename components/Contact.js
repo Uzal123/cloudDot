@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="flex justify-center flex-col items-center p-6 gap-2 bg-lightBackground">
+    <div id="contact" className="flex justify-center flex-col items-center p-6 gap-2 bg-lightBackground">
       <h2 className="text-4xl font-bold text-mainButton">Contact</h2>
-      <p className="text-2xl text-mainText">We would love to hear from you !</p>
+      <p className="text-2xl text-mainText text-center">We would love to hear from you !</p>
       <div className="flex flex-col gap-2 sm:p-6 w-full sm:w-auto">
         <div className="sm:flex sm:flex-row flex flex-col gap-2">
           <input
