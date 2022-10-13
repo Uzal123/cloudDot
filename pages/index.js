@@ -1,6 +1,8 @@
 
 import About from '../components/About'
 import Advantage from '../components/Advantage'
+import Brand from '../components/Brand'
+import Contact from '../components/Contact'
 import HomeMain from '../components/HomeMain'
 import Navbar from '../components/Navbar'
 import Portfolio from '../components/Portfolio'
@@ -16,6 +18,8 @@ export default function Home() {
       <Service />
       <Portfolio />
       <Advantage />
+      <Brand/>
+      <Contact />
     </div>
   )
 }
