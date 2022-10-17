@@ -26,6 +26,7 @@ const Portfolio = () => {
             image={data.image}
             onClick={onClick}
             id={data.id}
+            key={i}
           />
         ))}
       </div>
