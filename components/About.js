@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="sm:flex items-center sm:px-10 px-4">
+    <div id="about" className="sm:flex items-center sm:px-10 px-4 pt-20">
       <div className="text-lg sm:w-2/3 bg-lightBackground sm:p-10 p-6">
         <p className="text-mainButton text-2xl">Who we are</p>
         <p className="text-lightGray text-base">
@@ -14,8 +14,8 @@ const About = () => {
           operating Cloud for their business.
         </p>
       </div>
-      <div className="sm:w-1/3">
-        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+      <div className="sm:w-1/3 p-4">
+        <img src="about.svg" />
       </div>
     </div>
   );
