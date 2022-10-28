@@ -2,13 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To view this project run the following in terminal of the project folder:
 
 ```bash
+npm install
+# then
 npm run dev
-# or
-yarn dev
 ```
+
+Make sure you have Node.js installed in your system.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
