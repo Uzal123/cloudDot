@@ -13,9 +13,9 @@ const Advantage = () => {
           The Spotkloud Advantage
         </h2>
         <p className="text-lg text-mainText">Why us!</p>
-        <div className="">
+        {/* <div className="">
           <img src="advantage.svg" className="w-full" />
-        </div>
+        </div> */}
       </div>
 
       <div className=" gap-4 mt-4 flex flex-wrap justify-center">

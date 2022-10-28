@@ -15,7 +15,7 @@ const PortfolioContainer = ({ title, desc, image, onClick,id }) => {
         className="absolute flex flex-col justify-center h-64 w-64 hover:backdrop-blur-sm transition-all"
       >
         <h2
-          className="text-5xl text-center font-semibold"
+          className="text-3xl text-center font-semibold"
           onClick={(e) => onClick(e, id)}
         >
           {title}

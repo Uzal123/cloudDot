@@ -54,7 +54,7 @@ const Navbar = () => {
   return (
     <div className="fixed left-0 top-0 w-screen z-30 ">
       <div
-        className="flex items-center justify-between"
+        className="flex items-center justify-between duration-300 ease-in"
         style={{ backgroundColor: `${color}` }}
       >
         <a href="#main">
@@ -87,17 +87,13 @@ const Navbar = () => {
             </li>
           </a>
         </ul>
-        <div className="block md:hidden z-10 p-6">
+        <div className="block md:hidden z-10">
           {Show ? (
-            <img
-              src="cross.svg"
-              className="h-6 w-6"
-              onClick={(e) => setShow(false)}
-            />
+            ""
           ) : (
             <img
               src="menu.svg"
-              className="h-6 w-6"
+              className="h-6 w-6 absolute top-0 right-0 m-6"
               onClick={(e) => setShow(true)}
             />
           )}
@@ -109,6 +105,11 @@ const Navbar = () => {
               : "sm:hidden absolute top-0 left-[200%] flex justify-center items-center h-screen w-full bg-white ease-in duration-300"
           }
         >
+          <img
+            src="cross.svg"
+            className="h-6 w-6 absolute top-0 right-0 m-6"
+            onClick={(e) => setShow(false)}
+          />
           <ul className="nav-items flex flex-col gap-6 text-4xl text-center ">
             <a href="#about">
               <li
