@@ -12,12 +12,13 @@ const HomeMain = () => {
         muted
         className=" absolute -z-10 h-screen w-screen object-cover"
       >
-        <source src="Video.mp4" type="video/mp4" />
+        <source src="Video1.mp4" type="video/mp4" />
       </video> */}
-      <div className="absolute h-screen w-full top-0 left-0 bg-white/[0.3] -z-10"></div>
-      <h2 className="text-5xl font-bold text-center text-mainText">
+      <div className="absolute h-screen w-full top-0 left-0 bg-mainText -z-10"></div>
+      {/* <h2 className="text-5xl font-bold text-center text-mainText">
         We are Spotkloud!
-      </h2>
+      </h2> */}
+      <img src="Logo_full.png" />
       <h1 className="text-2xl text-center text-lightGray">
         A Cloud Consulting Company
       </h1>

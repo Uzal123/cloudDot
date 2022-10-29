@@ -2,13 +2,19 @@ import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [Show, setShow] = useState(false);
-  const [color, setColor] = useState("transparent");
+  const [color, setColor] = useState("#ffffff");
+  const [nav_color, setNav_color] = useState("#343b40");
+  const [logo, setLogo] = useState("Logo_dark.png");
 
   const changeNav = () => {
     if (window.scrollY >= 90) {
-      setColor("#ffffff");
+      setColor("#343b40");
+      setNav_color("white")
+      setLogo("Logo_light.png");
     } else {
-      setColor("transparent");
+      setColor("#ffffff");
+      setNav_color("#343b40");
+      setLogo("Logo_dark.png");
     }
   };
 
@@ -58,11 +64,14 @@ const Navbar = () => {
         style={{ backgroundColor: `${color}` }}
       >
         <a href="#main">
-          <h1 className="font-extrabold text-4xl text-mainText p-4 cursor-pointer">
-            SpotKloud
-          </h1>
+          {/* <h1 className="font-thin text-4xl text-mainText p-4 cursor-pointer">
+            KNLOS NETWORK<span className="text-red-500">S</span>
+          </h1> */}
+          <div className="h-16 px-2  sm:px-12 flex items-center p-6">
+            <img src={logo} className="h-6 sm:h-10 object-fit" />
+          </div>
         </a>
-        <ul className="nav-items hidden md:flex items-center text-textLight font-bold text-lg px-6 gap-4">
+        <ul className="nav-items hidden md:flex items-center font-bold text-lg px-6 gap-4" style={{color: `${nav_color}`}}>
           <a href="#about">
             <li className="p-4 hover:text-mainButton cursor-pointer">About</li>
           </a>

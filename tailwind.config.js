@@ -7,11 +7,11 @@ module.exports = {
     theme: {
         extend: {
             colors:{
-                mainText: "#012970",
-                textLight:"#013289",
-                lightGray: "#444444",
-                mainButton: "#4154f1",
-                lightBackground: "#f6f9ff"
+                mainText: "#343b40",
+                textLight: "#2e6d89",
+                lightGray: "#2e6d89",
+                mainButton: "#c75d80",
+                lightBackground: "#343b40"
             }
         },
     },
