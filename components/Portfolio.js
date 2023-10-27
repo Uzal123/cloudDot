@@ -41,9 +41,9 @@ const Portfolio = () => {
             <div className="flex justify-center h-3/5 w-full">
               <img src={PortfolioData[Key].image} className="object-cover" />
             </div>
-            <div className="text-center py-4 h-2/5 w-full">
+            <div className="text-center py-4 h-2/5 w-full bg-mainButton">
               <h2 className="text-3xl">{PortfolioData[Key].title}</h2>
-              <p>
+              <p className="bg-mainButton">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
                 soluta velit hic tempora, labore impedit adipisci dolor dicta?
                 Dolor in reprehenderit illum ab aliquam possimus. Velit, rerum
